@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="2">
+  <section id="main">
+    <category id="hyperhdr" label="32001">
+      <group id="1">
+        <setting id="hyperhdr_enabled" type="boolean" label="32010" help="32011">
+          <level>0</level>
+          <default>true</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="hyperhdr_host" type="string" label="32012" help="32013">
+          <level>0</level>
+          <default>127.0.0.1</default>
+          <dependencies>
+            <dependency type="visible" setting="hyperhdr_enabled">true</dependency>
+          </dependencies>
+          <constraints>
+            <allowempty>false</allowempty>
+          </constraints>
+          <control type="edit" format="string"/>
+        </setting>
+        <setting id="hyperhdr_port" type="integer" label="32014" help="32015">
+          <level>0</level>
+          <default>8090</default>
+          <dependencies>
+            <dependency type="visible" setting="hyperhdr_enabled">true</dependency>
+          </dependencies>
+          <constraints>
+            <minimum>1</minimum>
+            <maximum>65535</maximum>
+          </constraints>
+          <control type="edit" format="integer"/>
+        </setting>
+        <setting id="hyperhdr_ssl" type="boolean" label="32016" help="32017">
+          <level>0</level>
+          <default>false</default>
+          <dependencies>
+            <dependency type="visible" setting="hyperhdr_enabled">true</dependency>
+          </dependencies>
+          <control type="toggle"/>
+        </setting>
+        <setting id="hyperhdr_token" type="string" label="32018" help="32019">
+          <level>0</level>
+          <default></default>
+          <dependencies>
+            <dependency type="visible" setting="hyperhdr_enabled">true</dependency>
+          </dependencies>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="edit" format="string">
+            <hidden>true</hidden>
+          </control>
+        </setting>
+      </group>
+    </category>
+    <category id="homeassistant" label="32002">
+      <group id="1">
+        <setting id="ha_enabled" type="boolean" label="32030" help="32031">
+          <level>0</level>
+          <default>false</default>
+          <control type="toggle"/>
+        </setting>
+        <setting id="ha_host" type="string" label="32032" help="32033">
+          <level>0</level>
+          <default>127.0.0.1</default>
+          <dependencies>
+            <dependency type="visible" setting="ha_enabled">true</dependency>
+          </dependencies>
+          <constraints>
+            <allowempty>false</allowempty>
+          </constraints>
+          <control type="edit" format="string"/>
+        </setting>
+        <setting id="ha_port" type="integer" label="32034" help="32035">
+          <level>0</level>
+          <default>8123</default>
+          <dependencies>
+            <dependency type="visible" setting="ha_enabled">true</dependency>
+          </dependencies>
+          <constraints>
+            <minimum>1</minimum>
+            <maximum>65535</maximum>
+          </constraints>
+          <control type="edit" format="integer"/>
+        </setting>
+        <setting id="ha_ssl" type="boolean" label="32036" help="32037">
+          <level>0</level>
+          <default>false</default>
+          <dependencies>
+            <dependency type="visible" setting="ha_enabled">true</dependency>
+          </dependencies>
+          <control type="toggle"/>
+        </setting>
+        <setting id="ha_webhook_id" type="string" label="32038" help="32039">
+          <level>0</level>
+          <default></default>
+          <dependencies>
+            <dependency type="visible" setting="ha_enabled">true</dependency>
+          </dependencies>
+          <constraints>
+            <allowempty>true</allowempty>
+          </constraints>
+          <control type="edit" format="string"/>
+        </setting>
+      </group>
+    </category>
+  </section>
+</settings>

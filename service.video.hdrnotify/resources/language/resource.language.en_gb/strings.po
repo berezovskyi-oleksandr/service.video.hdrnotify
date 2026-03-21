@@ -1,0 +1,106 @@
+# Kodi Media Center language file
+# Addon Name: HDR Notify
+# Addon id: service.video.hdrnotify
+msgid ""
+msgstr ""
+"Project-Id-Version: service.video.hdrnotify\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-03-21 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Category labels
+msgctxt "#32001"
+msgid "HyperHDR"
+msgstr ""
+
+msgctxt "#32002"
+msgid "Home Assistant"
+msgstr ""
+
+# HyperHDR settings
+msgctxt "#32010"
+msgid "Enable HyperHDR"
+msgstr ""
+
+msgctxt "#32011"
+msgid "Send HDR/SDR state to HyperHDR when playback starts or stops"
+msgstr ""
+
+msgctxt "#32012"
+msgid "HyperHDR host"
+msgstr ""
+
+msgctxt "#32013"
+msgid "IP address or hostname of your HyperHDR instance"
+msgstr ""
+
+msgctxt "#32014"
+msgid "HyperHDR port"
+msgstr ""
+
+msgctxt "#32015"
+msgid "Port number for HyperHDR JSON API"
+msgstr ""
+
+msgctxt "#32016"
+msgid "Use HTTPS"
+msgstr ""
+
+msgctxt "#32017"
+msgid "Connect to HyperHDR using HTTPS (default port: 8443)"
+msgstr ""
+
+msgctxt "#32018"
+msgid "API token"
+msgstr ""
+
+msgctxt "#32019"
+msgid "Authentication token (leave empty if authentication is disabled)"
+msgstr ""
+
+# Home Assistant settings
+msgctxt "#32030"
+msgid "Enable Home Assistant"
+msgstr ""
+
+msgctxt "#32031"
+msgid "Send HDR/SDR state to Home Assistant via webhook"
+msgstr ""
+
+msgctxt "#32032"
+msgid "Home Assistant host"
+msgstr ""
+
+msgctxt "#32033"
+msgid "IP address or hostname of your Home Assistant instance"
+msgstr ""
+
+msgctxt "#32034"
+msgid "Home Assistant port"
+msgstr ""
+
+msgctxt "#32035"
+msgid "Port number for Home Assistant"
+msgstr ""
+
+msgctxt "#32036"
+msgid "Use HTTPS"
+msgstr ""
+
+msgctxt "#32037"
+msgid "Connect to Home Assistant using HTTPS"
+msgstr ""
+
+msgctxt "#32038"
+msgid "Webhook ID"
+msgstr ""
+
+msgctxt "#32039"
+msgid "Webhook ID from your Home Assistant automation trigger"
+msgstr ""

@@ -1,0 +1,106 @@
+# Kodi Media Center language file
+# Addon Name: HDR Notify
+# Addon id: service.video.hdrnotify
+msgid ""
+msgstr ""
+"Project-Id-Version: service.video.hdrnotify\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: 2026-03-21 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Ukrainian\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+# Category labels
+msgctxt "#32001"
+msgid "HyperHDR"
+msgstr "HyperHDR"
+
+msgctxt "#32002"
+msgid "Home Assistant"
+msgstr "Home Assistant"
+
+# HyperHDR settings
+msgctxt "#32010"
+msgid "Enable HyperHDR"
+msgstr "Увімкнути HyperHDR"
+
+msgctxt "#32011"
+msgid "Send HDR/SDR state to HyperHDR when playback starts or stops"
+msgstr "Надсилати стан HDR/SDR до HyperHDR при початку або зупинці відтворення"
+
+msgctxt "#32012"
+msgid "HyperHDR host"
+msgstr "Хост HyperHDR"
+
+msgctxt "#32013"
+msgid "IP address or hostname of your HyperHDR instance"
+msgstr "IP-адреса або ім'я хоста вашого HyperHDR"
+
+msgctxt "#32014"
+msgid "HyperHDR port"
+msgstr "Порт HyperHDR"
+
+msgctxt "#32015"
+msgid "Port number for HyperHDR JSON API"
+msgstr "Номер порту для JSON API HyperHDR"
+
+msgctxt "#32016"
+msgid "Use HTTPS"
+msgstr "Використовувати HTTPS"
+
+msgctxt "#32017"
+msgid "Connect to HyperHDR using HTTPS (default port: 8443)"
+msgstr "Підключатися до HyperHDR через HTTPS (порт за замовчуванням: 8443)"
+
+msgctxt "#32018"
+msgid "API token"
+msgstr "Токен API"
+
+msgctxt "#32019"
+msgid "Authentication token (leave empty if authentication is disabled)"
+msgstr "Токен автентифікації (залиште порожнім, якщо автентифікація вимкнена)"
+
+# Home Assistant settings
+msgctxt "#32030"
+msgid "Enable Home Assistant"
+msgstr "Увімкнути Home Assistant"
+
+msgctxt "#32031"
+msgid "Send HDR/SDR state to Home Assistant via webhook"
+msgstr "Надсилати стан HDR/SDR до Home Assistant через вебхук"
+
+msgctxt "#32032"
+msgid "Home Assistant host"
+msgstr "Хост Home Assistant"
+
+msgctxt "#32033"
+msgid "IP address or hostname of your Home Assistant instance"
+msgstr "IP-адреса або ім'я хоста вашого Home Assistant"
+
+msgctxt "#32034"
+msgid "Home Assistant port"
+msgstr "Порт Home Assistant"
+
+msgctxt "#32035"
+msgid "Port number for Home Assistant"
+msgstr "Номер порту Home Assistant"
+
+msgctxt "#32036"
+msgid "Use HTTPS"
+msgstr "Використовувати HTTPS"
+
+msgctxt "#32037"
+msgid "Connect to Home Assistant using HTTPS"
+msgstr "Підключатися до Home Assistant через HTTPS"
+
+msgctxt "#32038"
+msgid "Webhook ID"
+msgstr "Ідентифікатор вебхука"
+
+msgctxt "#32039"
+msgid "Webhook ID from your Home Assistant automation trigger"
+msgstr "Ідентифікатор вебхука з тригера автоматизації Home Assistant"
